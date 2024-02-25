@@ -1,0 +1,861 @@
+[2022-10-25 13:12:23] train_motsp_n20.py(119) : DEBUG_MODE: False
+[2022-10-25 13:12:23] train_motsp_n20.py(120) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2022-10-25 13:12:23] train_motsp_n20.py(121) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2022-10-25 13:12:23] train_motsp_n20.py(121) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [180], 'gamma': 0.1}}
+[2022-10-25 13:12:23] train_motsp_n20.py(121) : trainer_params{'use_cuda': True, 'cuda_device_num': 0, 'epochs': 200, 'train_episodes': 100000, 'train_batch_size': 64, 'logging': {'model_save_interval': 5, 'img_save_interval': 20, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style.json'}, 'log_image_params_3': {'json_foldername': 'log_image_style', 'filename': 'style_loss.json'}}, 'model_load': {'enable': False, 'path': './result/20221003_154512_train__tsp_n20', 'epoch': 300}}
+[2022-10-25 13:12:23] train_motsp_n20.py(121) : logger_params{'log_file': {'desc': 'train__tsp_n20', 'filename': 'run_log', 'filepath': './result/20221025_131223_train__tsp_n20'}}
+[2022-10-25 13:12:25] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:12:25] MOTSPTrainer.py(150) : Epoch   1: Train  64/100000(0.1%)  Obj1 Score: 26.3222, Obj2 Score: 27.8849,  Loss: -2.4104
+[2022-10-25 13:12:26] MOTSPTrainer.py(150) : Epoch   1: Train 128/100000(0.1%)  Obj1 Score: 29.1772, Obj2 Score: 31.2516,  Loss: -2.8715
+[2022-10-25 13:12:26] MOTSPTrainer.py(150) : Epoch   1: Train 192/100000(0.2%)  Obj1 Score: 29.3790, Obj2 Score: 31.7744,  Loss: -3.1263
+[2022-10-25 13:12:26] MOTSPTrainer.py(150) : Epoch   1: Train 256/100000(0.3%)  Obj1 Score: 29.0499, Obj2 Score: 31.6816,  Loss: -3.3001
+[2022-10-25 13:12:26] MOTSPTrainer.py(150) : Epoch   1: Train 320/100000(0.3%)  Obj1 Score: 27.1344, Obj2 Score: 29.8948,  Loss: -3.2009
+[2022-10-25 13:12:26] MOTSPTrainer.py(150) : Epoch   1: Train 384/100000(0.4%)  Obj1 Score: 25.8958, Obj2 Score: 28.6014,  Loss: -3.1907
+[2022-10-25 13:12:26] MOTSPTrainer.py(150) : Epoch   1: Train 448/100000(0.4%)  Obj1 Score: 24.0763, Obj2 Score: 26.5153,  Loss: -2.9945
+[2022-10-25 13:12:27] MOTSPTrainer.py(150) : Epoch   1: Train 512/100000(0.5%)  Obj1 Score: 24.8361, Obj2 Score: 27.4274,  Loss: -3.4574
+[2022-10-25 13:12:27] MOTSPTrainer.py(150) : Epoch   1: Train 576/100000(0.6%)  Obj1 Score: 24.1479, Obj2 Score: 26.6032,  Loss: -3.3715
+[2022-10-25 13:12:27] MOTSPTrainer.py(150) : Epoch   1: Train 640/100000(0.6%)  Obj1 Score: 24.6554, Obj2 Score: 27.1011,  Loss: -3.7429
+[2022-10-25 13:16:40] MOTSPTrainer.py(155) : Epoch   1: Train (100%)  Obj1 Score: 15.2442, Obj2 Score: 15.2209,  Loss: -1.1920
+[2022-10-25 13:16:40] MOTSPTrainer.py(79) : Epoch   1/200: Time Est.: Elapsed[4.26m], Remain[14.13h]
+[2022-10-25 13:16:40] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 13:16:40] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:21:11] MOTSPTrainer.py(155) : Epoch   2: Train (100%)  Obj1 Score: 15.1004, Obj2 Score: 15.0362,  Loss: -0.8717
+[2022-10-25 13:21:11] MOTSPTrainer.py(79) : Epoch   2/200: Time Est.: Elapsed[8.77m], Remain[14.46h]
+[2022-10-25 13:21:11] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:21:11] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:25:44] MOTSPTrainer.py(155) : Epoch   3: Train (100%)  Obj1 Score: 14.9615, Obj2 Score: 15.0309,  Loss: -0.7413
+[2022-10-25 13:25:44] MOTSPTrainer.py(79) : Epoch   3/200: Time Est.: Elapsed[13.32m], Remain[14.57h]
+[2022-10-25 13:25:44] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:25:44] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:30:09] MOTSPTrainer.py(155) : Epoch   4: Train (100%)  Obj1 Score: 14.8605, Obj2 Score: 14.7319,  Loss: -0.6705
+[2022-10-25 13:30:09] MOTSPTrainer.py(79) : Epoch   4/200: Time Est.: Elapsed[17.74m], Remain[14.49h]
+[2022-10-25 13:30:09] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:30:10] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:34:38] MOTSPTrainer.py(155) : Epoch   5: Train (100%)  Obj1 Score: 14.9206, Obj2 Score: 14.9043,  Loss: -0.6749
+[2022-10-25 13:34:38] MOTSPTrainer.py(79) : Epoch   5/200: Time Est.: Elapsed[22.23m], Remain[14.45h]
+[2022-10-25 13:34:38] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:34:39] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 13:34:39] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:38:56] MOTSPTrainer.py(155) : Epoch   6: Train (100%)  Obj1 Score: 14.5536, Obj2 Score: 14.6030,  Loss: -0.5699
+[2022-10-25 13:38:56] MOTSPTrainer.py(79) : Epoch   6/200: Time Est.: Elapsed[26.51m], Remain[14.29h]
+[2022-10-25 13:38:56] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:38:56] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:43:21] MOTSPTrainer.py(155) : Epoch   7: Train (100%)  Obj1 Score: 14.8193, Obj2 Score: 14.8237,  Loss: -0.5521
+[2022-10-25 13:43:21] MOTSPTrainer.py(79) : Epoch   7/200: Time Est.: Elapsed[30.93m], Remain[14.22h]
+[2022-10-25 13:43:21] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:43:21] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:47:44] MOTSPTrainer.py(155) : Epoch   8: Train (100%)  Obj1 Score: 14.7247, Obj2 Score: 14.6642,  Loss: -0.5379
+[2022-10-25 13:47:44] MOTSPTrainer.py(79) : Epoch   8/200: Time Est.: Elapsed[35.31m], Remain[14.12h]
+[2022-10-25 13:47:44] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:47:44] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:52:12] MOTSPTrainer.py(155) : Epoch   9: Train (100%)  Obj1 Score: 14.6973, Obj2 Score: 14.7748,  Loss: -0.5104
+[2022-10-25 13:52:12] MOTSPTrainer.py(79) : Epoch   9/200: Time Est.: Elapsed[39.78m], Remain[14.07h]
+[2022-10-25 13:52:12] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:52:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 13:56:38] MOTSPTrainer.py(155) : Epoch  10: Train (100%)  Obj1 Score: 14.7884, Obj2 Score: 14.7952,  Loss: -0.4948
+[2022-10-25 13:56:38] MOTSPTrainer.py(79) : Epoch  10/200: Time Est.: Elapsed[44.21m], Remain[14.00h]
+[2022-10-25 13:56:38] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 13:56:38] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 13:56:38] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:01:08] MOTSPTrainer.py(155) : Epoch  11: Train (100%)  Obj1 Score: 14.9198, Obj2 Score: 14.8565,  Loss: -0.4877
+[2022-10-25 14:01:08] MOTSPTrainer.py(79) : Epoch  11/200: Time Est.: Elapsed[48.73m], Remain[13.95h]
+[2022-10-25 14:01:08] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:01:09] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:05:31] MOTSPTrainer.py(155) : Epoch  12: Train (100%)  Obj1 Score: 14.6155, Obj2 Score: 14.5872,  Loss: -0.4539
+[2022-10-25 14:05:31] MOTSPTrainer.py(79) : Epoch  12/200: Time Est.: Elapsed[53.11m], Remain[13.87h]
+[2022-10-25 14:05:31] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:05:32] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:09:59] MOTSPTrainer.py(155) : Epoch  13: Train (100%)  Obj1 Score: 14.7200, Obj2 Score: 14.6795,  Loss: -0.4440
+[2022-10-25 14:09:59] MOTSPTrainer.py(79) : Epoch  13/200: Time Est.: Elapsed[57.56m], Remain[13.80h]
+[2022-10-25 14:09:59] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:09:59] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:14:22] MOTSPTrainer.py(155) : Epoch  14: Train (100%)  Obj1 Score: 14.5280, Obj2 Score: 14.4843,  Loss: -0.4324
+[2022-10-25 14:14:22] MOTSPTrainer.py(79) : Epoch  14/200: Time Est.: Elapsed[1.03h], Remain[13.72h]
+[2022-10-25 14:14:22] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:14:22] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:18:48] MOTSPTrainer.py(155) : Epoch  15: Train (100%)  Obj1 Score: 14.5730, Obj2 Score: 14.6494,  Loss: -0.4278
+[2022-10-25 14:18:48] MOTSPTrainer.py(79) : Epoch  15/200: Time Est.: Elapsed[1.11h], Remain[13.65h]
+[2022-10-25 14:18:48] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:18:49] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 14:18:49] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:23:23] MOTSPTrainer.py(155) : Epoch  16: Train (100%)  Obj1 Score: 14.8638, Obj2 Score: 14.8722,  Loss: -0.4095
+[2022-10-25 14:23:23] MOTSPTrainer.py(79) : Epoch  16/200: Time Est.: Elapsed[1.18h], Remain[13.60h]
+[2022-10-25 14:23:23] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:23:23] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:27:53] MOTSPTrainer.py(155) : Epoch  17: Train (100%)  Obj1 Score: 14.7150, Obj2 Score: 14.7293,  Loss: -0.3940
+[2022-10-25 14:27:53] MOTSPTrainer.py(79) : Epoch  17/200: Time Est.: Elapsed[1.26h], Remain[13.54h]
+[2022-10-25 14:27:53] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:27:53] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:32:18] MOTSPTrainer.py(155) : Epoch  18: Train (100%)  Obj1 Score: 14.5440, Obj2 Score: 14.5643,  Loss: -0.3781
+[2022-10-25 14:32:18] MOTSPTrainer.py(79) : Epoch  18/200: Time Est.: Elapsed[1.33h], Remain[13.46h]
+[2022-10-25 14:32:18] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:32:18] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:36:51] MOTSPTrainer.py(155) : Epoch  19: Train (100%)  Obj1 Score: 14.6752, Obj2 Score: 14.6246,  Loss: -0.3646
+[2022-10-25 14:36:51] MOTSPTrainer.py(79) : Epoch  19/200: Time Est.: Elapsed[1.41h], Remain[13.41h]
+[2022-10-25 14:36:51] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:36:52] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:41:17] MOTSPTrainer.py(155) : Epoch  20: Train (100%)  Obj1 Score: 14.4305, Obj2 Score: 14.4876,  Loss: -0.3457
+[2022-10-25 14:41:17] MOTSPTrainer.py(79) : Epoch  20/200: Time Est.: Elapsed[1.48h], Remain[13.33h]
+[2022-10-25 14:41:17] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:41:17] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 14:41:18] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:45:33] MOTSPTrainer.py(155) : Epoch  21: Train (100%)  Obj1 Score: 14.3041, Obj2 Score: 14.2835,  Loss: -0.3239
+[2022-10-25 14:45:33] MOTSPTrainer.py(79) : Epoch  21/200: Time Est.: Elapsed[1.55h], Remain[13.23h]
+[2022-10-25 14:45:33] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:45:33] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:50:02] MOTSPTrainer.py(155) : Epoch  22: Train (100%)  Obj1 Score: 14.6692, Obj2 Score: 14.6226,  Loss: -0.3249
+[2022-10-25 14:50:02] MOTSPTrainer.py(79) : Epoch  22/200: Time Est.: Elapsed[1.63h], Remain[13.16h]
+[2022-10-25 14:50:02] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:50:02] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:54:22] MOTSPTrainer.py(155) : Epoch  23: Train (100%)  Obj1 Score: 14.4468, Obj2 Score: 14.3835,  Loss: -0.2999
+[2022-10-25 14:54:22] MOTSPTrainer.py(79) : Epoch  23/200: Time Est.: Elapsed[1.70h], Remain[13.08h]
+[2022-10-25 14:54:22] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:54:23] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 14:58:50] MOTSPTrainer.py(155) : Epoch  24: Train (100%)  Obj1 Score: 14.5202, Obj2 Score: 14.5916,  Loss: -0.2984
+[2022-10-25 14:58:50] MOTSPTrainer.py(79) : Epoch  24/200: Time Est.: Elapsed[1.77h], Remain[13.01h]
+[2022-10-25 14:58:50] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 14:58:50] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:03:15] MOTSPTrainer.py(155) : Epoch  25: Train (100%)  Obj1 Score: 14.5448, Obj2 Score: 14.5323,  Loss: -0.2806
+[2022-10-25 15:03:15] MOTSPTrainer.py(79) : Epoch  25/200: Time Est.: Elapsed[1.85h], Remain[12.93h]
+[2022-10-25 15:03:15] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:03:15] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 15:03:15] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:07:40] MOTSPTrainer.py(155) : Epoch  26: Train (100%)  Obj1 Score: 14.4531, Obj2 Score: 14.3658,  Loss: -0.2721
+[2022-10-25 15:07:40] MOTSPTrainer.py(79) : Epoch  26/200: Time Est.: Elapsed[1.92h], Remain[12.85h]
+[2022-10-25 15:07:40] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:07:40] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:12:13] MOTSPTrainer.py(155) : Epoch  27: Train (100%)  Obj1 Score: 14.7719, Obj2 Score: 14.7360,  Loss: -0.2723
+[2022-10-25 15:12:13] MOTSPTrainer.py(79) : Epoch  27/200: Time Est.: Elapsed[2.00h], Remain[12.79h]
+[2022-10-25 15:12:13] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:12:13] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:16:35] MOTSPTrainer.py(155) : Epoch  28: Train (100%)  Obj1 Score: 14.4532, Obj2 Score: 14.3632,  Loss: -0.2620
+[2022-10-25 15:16:35] MOTSPTrainer.py(79) : Epoch  28/200: Time Est.: Elapsed[2.07h], Remain[12.71h]
+[2022-10-25 15:16:35] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:16:36] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:21:02] MOTSPTrainer.py(155) : Epoch  29: Train (100%)  Obj1 Score: 14.5532, Obj2 Score: 14.5109,  Loss: -0.2495
+[2022-10-25 15:21:02] MOTSPTrainer.py(79) : Epoch  29/200: Time Est.: Elapsed[2.14h], Remain[12.64h]
+[2022-10-25 15:21:02] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:21:02] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:25:25] MOTSPTrainer.py(155) : Epoch  30: Train (100%)  Obj1 Score: 14.4786, Obj2 Score: 14.4384,  Loss: -0.2430
+[2022-10-25 15:25:25] MOTSPTrainer.py(79) : Epoch  30/200: Time Est.: Elapsed[2.22h], Remain[12.56h]
+[2022-10-25 15:25:25] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:25:25] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 15:25:25] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:29:50] MOTSPTrainer.py(155) : Epoch  31: Train (100%)  Obj1 Score: 14.4391, Obj2 Score: 14.4284,  Loss: -0.2412
+[2022-10-25 15:29:50] MOTSPTrainer.py(79) : Epoch  31/200: Time Est.: Elapsed[2.29h], Remain[12.49h]
+[2022-10-25 15:29:50] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:29:50] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:34:12] MOTSPTrainer.py(155) : Epoch  32: Train (100%)  Obj1 Score: 14.3641, Obj2 Score: 14.3465,  Loss: -0.2301
+[2022-10-25 15:34:12] MOTSPTrainer.py(79) : Epoch  32/200: Time Est.: Elapsed[2.36h], Remain[12.41h]
+[2022-10-25 15:34:12] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:34:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:38:43] MOTSPTrainer.py(155) : Epoch  33: Train (100%)  Obj1 Score: 14.6173, Obj2 Score: 14.6176,  Loss: -0.2344
+[2022-10-25 15:38:43] MOTSPTrainer.py(79) : Epoch  33/200: Time Est.: Elapsed[2.44h], Remain[12.34h]
+[2022-10-25 15:38:43] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:38:43] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:43:10] MOTSPTrainer.py(155) : Epoch  34: Train (100%)  Obj1 Score: 14.4580, Obj2 Score: 14.4584,  Loss: -0.2251
+[2022-10-25 15:43:10] MOTSPTrainer.py(79) : Epoch  34/200: Time Est.: Elapsed[2.51h], Remain[12.27h]
+[2022-10-25 15:43:10] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:43:11] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:47:31] MOTSPTrainer.py(155) : Epoch  35: Train (100%)  Obj1 Score: 14.3191, Obj2 Score: 14.3308,  Loss: -0.2179
+[2022-10-25 15:47:31] MOTSPTrainer.py(79) : Epoch  35/200: Time Est.: Elapsed[2.59h], Remain[12.19h]
+[2022-10-25 15:47:31] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:47:31] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 15:47:31] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:51:58] MOTSPTrainer.py(155) : Epoch  36: Train (100%)  Obj1 Score: 14.4180, Obj2 Score: 14.4555,  Loss: -0.2176
+[2022-10-25 15:51:58] MOTSPTrainer.py(79) : Epoch  36/200: Time Est.: Elapsed[2.66h], Remain[12.11h]
+[2022-10-25 15:51:58] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:51:58] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 15:56:30] MOTSPTrainer.py(155) : Epoch  37: Train (100%)  Obj1 Score: 14.6934, Obj2 Score: 14.6344,  Loss: -0.2190
+[2022-10-25 15:56:30] MOTSPTrainer.py(79) : Epoch  37/200: Time Est.: Elapsed[2.73h], Remain[12.05h]
+[2022-10-25 15:56:30] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 15:56:31] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:00:46] MOTSPTrainer.py(155) : Epoch  38: Train (100%)  Obj1 Score: 14.1281, Obj2 Score: 14.1750,  Loss: -0.2049
+[2022-10-25 16:00:46] MOTSPTrainer.py(79) : Epoch  38/200: Time Est.: Elapsed[2.81h], Remain[11.96h]
+[2022-10-25 16:00:46] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:00:46] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:05:14] MOTSPTrainer.py(155) : Epoch  39: Train (100%)  Obj1 Score: 14.5267, Obj2 Score: 14.5104,  Loss: -0.2103
+[2022-10-25 16:05:14] MOTSPTrainer.py(79) : Epoch  39/200: Time Est.: Elapsed[2.88h], Remain[11.89h]
+[2022-10-25 16:05:14] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:05:15] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:09:39] MOTSPTrainer.py(155) : Epoch  40: Train (100%)  Obj1 Score: 14.4318, Obj2 Score: 14.3748,  Loss: -0.2056
+[2022-10-25 16:09:39] MOTSPTrainer.py(79) : Epoch  40/200: Time Est.: Elapsed[2.95h], Remain[11.82h]
+[2022-10-25 16:09:39] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:09:40] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 16:09:40] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:14:15] MOTSPTrainer.py(155) : Epoch  41: Train (100%)  Obj1 Score: 14.6339, Obj2 Score: 14.6163,  Loss: -0.2074
+[2022-10-25 16:14:15] MOTSPTrainer.py(79) : Epoch  41/200: Time Est.: Elapsed[3.03h], Remain[11.75h]
+[2022-10-25 16:14:15] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:14:15] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:18:43] MOTSPTrainer.py(155) : Epoch  42: Train (100%)  Obj1 Score: 14.5511, Obj2 Score: 14.4658,  Loss: -0.2031
+[2022-10-25 16:18:43] MOTSPTrainer.py(79) : Epoch  42/200: Time Est.: Elapsed[3.11h], Remain[11.68h]
+[2022-10-25 16:18:43] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:18:44] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:23:01] MOTSPTrainer.py(155) : Epoch  43: Train (100%)  Obj1 Score: 14.1498, Obj2 Score: 14.1827,  Loss: -0.1914
+[2022-10-25 16:23:01] MOTSPTrainer.py(79) : Epoch  43/200: Time Est.: Elapsed[3.18h], Remain[11.60h]
+[2022-10-25 16:23:01] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:23:02] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:27:26] MOTSPTrainer.py(155) : Epoch  44: Train (100%)  Obj1 Score: 14.4322, Obj2 Score: 14.4551,  Loss: -0.1962
+[2022-10-25 16:27:26] MOTSPTrainer.py(79) : Epoch  44/200: Time Est.: Elapsed[3.25h], Remain[11.52h]
+[2022-10-25 16:27:26] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:27:26] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:31:57] MOTSPTrainer.py(155) : Epoch  45: Train (100%)  Obj1 Score: 14.3920, Obj2 Score: 14.4349,  Loss: -0.1959
+[2022-10-25 16:31:57] MOTSPTrainer.py(79) : Epoch  45/200: Time Est.: Elapsed[3.33h], Remain[11.45h]
+[2022-10-25 16:31:57] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:31:57] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 16:31:57] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:36:18] MOTSPTrainer.py(155) : Epoch  46: Train (100%)  Obj1 Score: 14.1607, Obj2 Score: 14.1852,  Loss: -0.1881
+[2022-10-25 16:36:18] MOTSPTrainer.py(79) : Epoch  46/200: Time Est.: Elapsed[3.40h], Remain[11.38h]
+[2022-10-25 16:36:18] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:36:18] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:40:52] MOTSPTrainer.py(155) : Epoch  47: Train (100%)  Obj1 Score: 14.5211, Obj2 Score: 14.5223,  Loss: -0.1954
+[2022-10-25 16:40:52] MOTSPTrainer.py(79) : Epoch  47/200: Time Est.: Elapsed[3.47h], Remain[11.31h]
+[2022-10-25 16:40:52] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:40:53] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:45:16] MOTSPTrainer.py(155) : Epoch  48: Train (100%)  Obj1 Score: 14.3102, Obj2 Score: 14.2801,  Loss: -0.1883
+[2022-10-25 16:45:16] MOTSPTrainer.py(79) : Epoch  48/200: Time Est.: Elapsed[3.55h], Remain[11.23h]
+[2022-10-25 16:45:16] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:45:16] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:49:43] MOTSPTrainer.py(155) : Epoch  49: Train (100%)  Obj1 Score: 14.5160, Obj2 Score: 14.4868,  Loss: -0.1912
+[2022-10-25 16:49:43] MOTSPTrainer.py(79) : Epoch  49/200: Time Est.: Elapsed[3.62h], Remain[11.16h]
+[2022-10-25 16:49:43] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:49:43] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:54:06] MOTSPTrainer.py(155) : Epoch  50: Train (100%)  Obj1 Score: 14.3302, Obj2 Score: 14.3850,  Loss: -0.1869
+[2022-10-25 16:54:06] MOTSPTrainer.py(79) : Epoch  50/200: Time Est.: Elapsed[3.69h], Remain[11.08h]
+[2022-10-25 16:54:06] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:54:06] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 16:54:07] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 16:58:30] MOTSPTrainer.py(155) : Epoch  51: Train (100%)  Obj1 Score: 14.3623, Obj2 Score: 14.4156,  Loss: -0.1859
+[2022-10-25 16:58:30] MOTSPTrainer.py(79) : Epoch  51/200: Time Est.: Elapsed[3.77h], Remain[11.01h]
+[2022-10-25 16:58:30] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 16:58:30] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:02:58] MOTSPTrainer.py(155) : Epoch  52: Train (100%)  Obj1 Score: 14.3186, Obj2 Score: 14.3923,  Loss: -0.1855
+[2022-10-25 17:02:58] MOTSPTrainer.py(79) : Epoch  52/200: Time Est.: Elapsed[3.84h], Remain[10.94h]
+[2022-10-25 17:02:58] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:02:59] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:07:32] MOTSPTrainer.py(155) : Epoch  53: Train (100%)  Obj1 Score: 14.7339, Obj2 Score: 14.5814,  Loss: -0.1917
+[2022-10-25 17:07:32] MOTSPTrainer.py(79) : Epoch  53/200: Time Est.: Elapsed[3.92h], Remain[10.87h]
+[2022-10-25 17:07:32] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:07:32] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:11:55] MOTSPTrainer.py(155) : Epoch  54: Train (100%)  Obj1 Score: 14.2467, Obj2 Score: 14.2275,  Loss: -0.1810
+[2022-10-25 17:11:55] MOTSPTrainer.py(79) : Epoch  54/200: Time Est.: Elapsed[3.99h], Remain[10.79h]
+[2022-10-25 17:11:55] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:11:55] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:16:21] MOTSPTrainer.py(155) : Epoch  55: Train (100%)  Obj1 Score: 14.3670, Obj2 Score: 14.2784,  Loss: -0.1842
+[2022-10-25 17:16:21] MOTSPTrainer.py(79) : Epoch  55/200: Time Est.: Elapsed[4.07h], Remain[10.72h]
+[2022-10-25 17:16:21] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:16:22] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 17:16:22] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:20:45] MOTSPTrainer.py(155) : Epoch  56: Train (100%)  Obj1 Score: 14.2682, Obj2 Score: 14.2511,  Loss: -0.1824
+[2022-10-25 17:20:45] MOTSPTrainer.py(79) : Epoch  56/200: Time Est.: Elapsed[4.14h], Remain[10.64h]
+[2022-10-25 17:20:45] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:20:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:25:11] MOTSPTrainer.py(155) : Epoch  57: Train (100%)  Obj1 Score: 14.4354, Obj2 Score: 14.3338,  Loss: -0.1837
+[2022-10-25 17:25:11] MOTSPTrainer.py(79) : Epoch  57/200: Time Est.: Elapsed[4.21h], Remain[10.57h]
+[2022-10-25 17:25:11] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:25:11] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:29:37] MOTSPTrainer.py(155) : Epoch  58: Train (100%)  Obj1 Score: 14.3995, Obj2 Score: 14.4489,  Loss: -0.1828
+[2022-10-25 17:29:37] MOTSPTrainer.py(79) : Epoch  58/200: Time Est.: Elapsed[4.29h], Remain[10.50h]
+[2022-10-25 17:29:37] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:29:38] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:34:03] MOTSPTrainer.py(155) : Epoch  59: Train (100%)  Obj1 Score: 14.3579, Obj2 Score: 14.3384,  Loss: -0.1818
+[2022-10-25 17:34:03] MOTSPTrainer.py(79) : Epoch  59/200: Time Est.: Elapsed[4.36h], Remain[10.42h]
+[2022-10-25 17:34:03] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:34:03] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:38:27] MOTSPTrainer.py(155) : Epoch  60: Train (100%)  Obj1 Score: 14.4151, Obj2 Score: 14.4011,  Loss: -0.1801
+[2022-10-25 17:38:27] MOTSPTrainer.py(79) : Epoch  60/200: Time Est.: Elapsed[4.43h], Remain[10.35h]
+[2022-10-25 17:38:27] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:38:27] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 17:38:28] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:42:56] MOTSPTrainer.py(155) : Epoch  61: Train (100%)  Obj1 Score: 14.4724, Obj2 Score: 14.3978,  Loss: -0.1801
+[2022-10-25 17:42:56] MOTSPTrainer.py(79) : Epoch  61/200: Time Est.: Elapsed[4.51h], Remain[10.27h]
+[2022-10-25 17:42:56] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:42:56] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:47:23] MOTSPTrainer.py(155) : Epoch  62: Train (100%)  Obj1 Score: 14.4728, Obj2 Score: 14.5164,  Loss: -0.1796
+[2022-10-25 17:47:23] MOTSPTrainer.py(79) : Epoch  62/200: Time Est.: Elapsed[4.58h], Remain[10.20h]
+[2022-10-25 17:47:23] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:47:24] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:51:45] MOTSPTrainer.py(155) : Epoch  63: Train (100%)  Obj1 Score: 14.2591, Obj2 Score: 14.3031,  Loss: -0.1750
+[2022-10-25 17:51:45] MOTSPTrainer.py(79) : Epoch  63/200: Time Est.: Elapsed[4.66h], Remain[10.12h]
+[2022-10-25 17:51:45] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:51:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 17:56:14] MOTSPTrainer.py(155) : Epoch  64: Train (100%)  Obj1 Score: 14.5274, Obj2 Score: 14.4784,  Loss: -0.1796
+[2022-10-25 17:56:14] MOTSPTrainer.py(79) : Epoch  64/200: Time Est.: Elapsed[4.73h], Remain[10.05h]
+[2022-10-25 17:56:14] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 17:56:14] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:00:47] MOTSPTrainer.py(155) : Epoch  65: Train (100%)  Obj1 Score: 14.5903, Obj2 Score: 14.5589,  Loss: -0.1800
+[2022-10-25 18:00:47] MOTSPTrainer.py(79) : Epoch  65/200: Time Est.: Elapsed[4.81h], Remain[9.98h]
+[2022-10-25 18:00:47] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:00:47] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 18:00:47] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:05:13] MOTSPTrainer.py(155) : Epoch  66: Train (100%)  Obj1 Score: 14.3897, Obj2 Score: 14.4221,  Loss: -0.1762
+[2022-10-25 18:05:13] MOTSPTrainer.py(79) : Epoch  66/200: Time Est.: Elapsed[4.88h], Remain[9.91h]
+[2022-10-25 18:05:13] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:05:13] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:09:38] MOTSPTrainer.py(155) : Epoch  67: Train (100%)  Obj1 Score: 14.3084, Obj2 Score: 14.3576,  Loss: -0.1744
+[2022-10-25 18:09:38] MOTSPTrainer.py(79) : Epoch  67/200: Time Est.: Elapsed[4.95h], Remain[9.83h]
+[2022-10-25 18:09:38] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:09:39] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:14:05] MOTSPTrainer.py(155) : Epoch  68: Train (100%)  Obj1 Score: 14.4430, Obj2 Score: 14.4271,  Loss: -0.1759
+[2022-10-25 18:14:05] MOTSPTrainer.py(79) : Epoch  68/200: Time Est.: Elapsed[5.03h], Remain[9.76h]
+[2022-10-25 18:14:05] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:14:05] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:18:27] MOTSPTrainer.py(155) : Epoch  69: Train (100%)  Obj1 Score: 14.2024, Obj2 Score: 14.1862,  Loss: -0.1708
+[2022-10-25 18:18:27] MOTSPTrainer.py(79) : Epoch  69/200: Time Est.: Elapsed[5.10h], Remain[9.68h]
+[2022-10-25 18:18:27] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:18:27] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:22:57] MOTSPTrainer.py(155) : Epoch  70: Train (100%)  Obj1 Score: 14.4781, Obj2 Score: 14.4809,  Loss: -0.1750
+[2022-10-25 18:22:57] MOTSPTrainer.py(79) : Epoch  70/200: Time Est.: Elapsed[5.18h], Remain[9.61h]
+[2022-10-25 18:22:57] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:22:57] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 18:22:57] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:27:17] MOTSPTrainer.py(155) : Epoch  71: Train (100%)  Obj1 Score: 14.2920, Obj2 Score: 14.2311,  Loss: -0.1706
+[2022-10-25 18:27:17] MOTSPTrainer.py(79) : Epoch  71/200: Time Est.: Elapsed[5.25h], Remain[9.53h]
+[2022-10-25 18:27:17] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:27:17] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:32:00] MOTSPTrainer.py(155) : Epoch  72: Train (100%)  Obj1 Score: 14.5489, Obj2 Score: 14.6075,  Loss: -0.1758
+[2022-10-25 18:32:00] MOTSPTrainer.py(79) : Epoch  72/200: Time Est.: Elapsed[5.33h], Remain[9.47h]
+[2022-10-25 18:32:00] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:32:00] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:36:28] MOTSPTrainer.py(155) : Epoch  73: Train (100%)  Obj1 Score: 14.4916, Obj2 Score: 14.5235,  Loss: -0.1748
+[2022-10-25 18:36:28] MOTSPTrainer.py(79) : Epoch  73/200: Time Est.: Elapsed[5.40h], Remain[9.40h]
+[2022-10-25 18:36:28] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:36:29] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:40:55] MOTSPTrainer.py(155) : Epoch  74: Train (100%)  Obj1 Score: 14.3432, Obj2 Score: 14.3832,  Loss: -0.1715
+[2022-10-25 18:40:55] MOTSPTrainer.py(79) : Epoch  74/200: Time Est.: Elapsed[5.48h], Remain[9.32h]
+[2022-10-25 18:40:55] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:40:55] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:45:18] MOTSPTrainer.py(155) : Epoch  75: Train (100%)  Obj1 Score: 14.3532, Obj2 Score: 14.3967,  Loss: -0.1706
+[2022-10-25 18:45:18] MOTSPTrainer.py(79) : Epoch  75/200: Time Est.: Elapsed[5.55h], Remain[9.25h]
+[2022-10-25 18:45:18] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:45:18] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 18:45:19] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:49:48] MOTSPTrainer.py(155) : Epoch  76: Train (100%)  Obj1 Score: 14.5265, Obj2 Score: 14.5184,  Loss: -0.1722
+[2022-10-25 18:49:48] MOTSPTrainer.py(79) : Epoch  76/200: Time Est.: Elapsed[5.62h], Remain[9.17h]
+[2022-10-25 18:49:48] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:49:49] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:54:10] MOTSPTrainer.py(155) : Epoch  77: Train (100%)  Obj1 Score: 14.2408, Obj2 Score: 14.2274,  Loss: -0.1659
+[2022-10-25 18:54:10] MOTSPTrainer.py(79) : Epoch  77/200: Time Est.: Elapsed[5.70h], Remain[9.10h]
+[2022-10-25 18:54:10] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:54:10] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 18:58:43] MOTSPTrainer.py(155) : Epoch  78: Train (100%)  Obj1 Score: 14.4799, Obj2 Score: 14.4970,  Loss: -0.1715
+[2022-10-25 18:58:43] MOTSPTrainer.py(79) : Epoch  78/200: Time Est.: Elapsed[5.77h], Remain[9.03h]
+[2022-10-25 18:58:43] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 18:58:43] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:03:10] MOTSPTrainer.py(155) : Epoch  79: Train (100%)  Obj1 Score: 14.3265, Obj2 Score: 14.3226,  Loss: -0.1677
+[2022-10-25 19:03:10] MOTSPTrainer.py(79) : Epoch  79/200: Time Est.: Elapsed[5.85h], Remain[8.95h]
+[2022-10-25 19:03:10] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:03:10] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:07:39] MOTSPTrainer.py(155) : Epoch  80: Train (100%)  Obj1 Score: 14.3167, Obj2 Score: 14.3246,  Loss: -0.1680
+[2022-10-25 19:07:39] MOTSPTrainer.py(79) : Epoch  80/200: Time Est.: Elapsed[5.92h], Remain[8.88h]
+[2022-10-25 19:07:39] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:07:40] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 19:07:40] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:12:00] MOTSPTrainer.py(155) : Epoch  81: Train (100%)  Obj1 Score: 14.1842, Obj2 Score: 14.1508,  Loss: -0.1648
+[2022-10-25 19:12:00] MOTSPTrainer.py(79) : Epoch  81/200: Time Est.: Elapsed[5.99h], Remain[8.80h]
+[2022-10-25 19:12:00] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:12:00] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:16:23] MOTSPTrainer.py(155) : Epoch  82: Train (100%)  Obj1 Score: 14.2644, Obj2 Score: 14.2215,  Loss: -0.1658
+[2022-10-25 19:16:23] MOTSPTrainer.py(79) : Epoch  82/200: Time Est.: Elapsed[6.07h], Remain[8.73h]
+[2022-10-25 19:16:23] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:16:23] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:20:54] MOTSPTrainer.py(155) : Epoch  83: Train (100%)  Obj1 Score: 14.4455, Obj2 Score: 14.4399,  Loss: -0.1688
+[2022-10-25 19:20:54] MOTSPTrainer.py(79) : Epoch  83/200: Time Est.: Elapsed[6.14h], Remain[8.66h]
+[2022-10-25 19:20:54] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:20:54] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:25:27] MOTSPTrainer.py(155) : Epoch  84: Train (100%)  Obj1 Score: 14.4548, Obj2 Score: 14.4421,  Loss: -0.1688
+[2022-10-25 19:25:27] MOTSPTrainer.py(79) : Epoch  84/200: Time Est.: Elapsed[6.22h], Remain[8.59h]
+[2022-10-25 19:25:27] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:25:28] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:29:56] MOTSPTrainer.py(155) : Epoch  85: Train (100%)  Obj1 Score: 14.3750, Obj2 Score: 14.3472,  Loss: -0.1656
+[2022-10-25 19:29:56] MOTSPTrainer.py(79) : Epoch  85/200: Time Est.: Elapsed[6.29h], Remain[8.51h]
+[2022-10-25 19:29:56] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:29:56] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 19:29:56] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:34:22] MOTSPTrainer.py(155) : Epoch  86: Train (100%)  Obj1 Score: 14.3403, Obj2 Score: 14.3197,  Loss: -0.1656
+[2022-10-25 19:34:22] MOTSPTrainer.py(79) : Epoch  86/200: Time Est.: Elapsed[6.37h], Remain[8.44h]
+[2022-10-25 19:34:22] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:34:22] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:38:59] MOTSPTrainer.py(155) : Epoch  87: Train (100%)  Obj1 Score: 14.5527, Obj2 Score: 14.6671,  Loss: -0.1699
+[2022-10-25 19:38:59] MOTSPTrainer.py(79) : Epoch  87/200: Time Est.: Elapsed[6.44h], Remain[8.37h]
+[2022-10-25 19:38:59] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:39:00] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:43:24] MOTSPTrainer.py(155) : Epoch  88: Train (100%)  Obj1 Score: 14.1925, Obj2 Score: 14.2542,  Loss: -0.1627
+[2022-10-25 19:43:24] MOTSPTrainer.py(79) : Epoch  88/200: Time Est.: Elapsed[6.52h], Remain[8.29h]
+[2022-10-25 19:43:24] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:43:25] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:47:51] MOTSPTrainer.py(155) : Epoch  89: Train (100%)  Obj1 Score: 14.3224, Obj2 Score: 14.3455,  Loss: -0.1633
+[2022-10-25 19:47:51] MOTSPTrainer.py(79) : Epoch  89/200: Time Est.: Elapsed[6.59h], Remain[8.22h]
+[2022-10-25 19:47:51] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:47:51] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:52:11] MOTSPTrainer.py(155) : Epoch  90: Train (100%)  Obj1 Score: 14.2327, Obj2 Score: 14.2493,  Loss: -0.1616
+[2022-10-25 19:52:11] MOTSPTrainer.py(79) : Epoch  90/200: Time Est.: Elapsed[6.66h], Remain[8.14h]
+[2022-10-25 19:52:11] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:52:12] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 19:52:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 19:56:37] MOTSPTrainer.py(155) : Epoch  91: Train (100%)  Obj1 Score: 14.3422, Obj2 Score: 14.3708,  Loss: -0.1633
+[2022-10-25 19:56:37] MOTSPTrainer.py(79) : Epoch  91/200: Time Est.: Elapsed[6.74h], Remain[8.07h]
+[2022-10-25 19:56:37] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 19:56:37] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:00:59] MOTSPTrainer.py(155) : Epoch  92: Train (100%)  Obj1 Score: 14.1493, Obj2 Score: 14.1264,  Loss: -0.1600
+[2022-10-25 20:00:59] MOTSPTrainer.py(79) : Epoch  92/200: Time Est.: Elapsed[6.81h], Remain[7.99h]
+[2022-10-25 20:00:59] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:00:59] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:05:20] MOTSPTrainer.py(155) : Epoch  93: Train (100%)  Obj1 Score: 14.1724, Obj2 Score: 14.1844,  Loss: -0.1585
+[2022-10-25 20:05:20] MOTSPTrainer.py(79) : Epoch  93/200: Time Est.: Elapsed[6.88h], Remain[7.92h]
+[2022-10-25 20:05:20] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:05:20] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:09:45] MOTSPTrainer.py(155) : Epoch  94: Train (100%)  Obj1 Score: 14.2949, Obj2 Score: 14.2842,  Loss: -0.1610
+[2022-10-25 20:09:45] MOTSPTrainer.py(79) : Epoch  94/200: Time Est.: Elapsed[6.96h], Remain[7.84h]
+[2022-10-25 20:09:45] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:09:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:14:12] MOTSPTrainer.py(155) : Epoch  95: Train (100%)  Obj1 Score: 14.2127, Obj2 Score: 14.1985,  Loss: -0.1592
+[2022-10-25 20:14:12] MOTSPTrainer.py(79) : Epoch  95/200: Time Est.: Elapsed[7.03h], Remain[7.77h]
+[2022-10-25 20:14:12] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:14:12] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 20:14:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:18:32] MOTSPTrainer.py(155) : Epoch  96: Train (100%)  Obj1 Score: 14.1421, Obj2 Score: 14.0973,  Loss: -0.1563
+[2022-10-25 20:18:32] MOTSPTrainer.py(79) : Epoch  96/200: Time Est.: Elapsed[7.10h], Remain[7.69h]
+[2022-10-25 20:18:32] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:18:32] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:23:04] MOTSPTrainer.py(155) : Epoch  97: Train (100%)  Obj1 Score: 14.4086, Obj2 Score: 14.3532,  Loss: -0.1630
+[2022-10-25 20:23:04] MOTSPTrainer.py(79) : Epoch  97/200: Time Est.: Elapsed[7.18h], Remain[7.62h]
+[2022-10-25 20:23:04] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:23:04] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:27:31] MOTSPTrainer.py(155) : Epoch  98: Train (100%)  Obj1 Score: 14.3401, Obj2 Score: 14.3379,  Loss: -0.1606
+[2022-10-25 20:27:31] MOTSPTrainer.py(79) : Epoch  98/200: Time Est.: Elapsed[7.25h], Remain[7.55h]
+[2022-10-25 20:27:31] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:27:31] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:31:56] MOTSPTrainer.py(155) : Epoch  99: Train (100%)  Obj1 Score: 14.4134, Obj2 Score: 14.3796,  Loss: -0.1601
+[2022-10-25 20:31:56] MOTSPTrainer.py(79) : Epoch  99/200: Time Est.: Elapsed[7.33h], Remain[7.47h]
+[2022-10-25 20:31:56] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:31:56] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:36:23] MOTSPTrainer.py(155) : Epoch 100: Train (100%)  Obj1 Score: 14.3113, Obj2 Score: 14.3050,  Loss: -0.1597
+[2022-10-25 20:36:23] MOTSPTrainer.py(79) : Epoch 100/200: Time Est.: Elapsed[7.40h], Remain[7.40h]
+[2022-10-25 20:36:23] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:36:24] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 20:36:24] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:40:47] MOTSPTrainer.py(155) : Epoch 101: Train (100%)  Obj1 Score: 14.0830, Obj2 Score: 14.1219,  Loss: -0.1557
+[2022-10-25 20:40:47] MOTSPTrainer.py(79) : Epoch 101/200: Time Est.: Elapsed[7.47h], Remain[7.32h]
+[2022-10-25 20:40:47] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:40:47] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:45:15] MOTSPTrainer.py(155) : Epoch 102: Train (100%)  Obj1 Score: 14.2489, Obj2 Score: 14.2754,  Loss: -0.1576
+[2022-10-25 20:45:15] MOTSPTrainer.py(79) : Epoch 102/200: Time Est.: Elapsed[7.55h], Remain[7.25h]
+[2022-10-25 20:45:15] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:45:16] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:49:47] MOTSPTrainer.py(155) : Epoch 103: Train (100%)  Obj1 Score: 14.3064, Obj2 Score: 14.3484,  Loss: -0.1594
+[2022-10-25 20:49:47] MOTSPTrainer.py(79) : Epoch 103/200: Time Est.: Elapsed[7.62h], Remain[7.18h]
+[2022-10-25 20:49:47] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:49:47] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:54:22] MOTSPTrainer.py(155) : Epoch 104: Train (100%)  Obj1 Score: 14.5202, Obj2 Score: 14.4070,  Loss: -0.1611
+[2022-10-25 20:54:22] MOTSPTrainer.py(79) : Epoch 104/200: Time Est.: Elapsed[7.70h], Remain[7.11h]
+[2022-10-25 20:54:22] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:54:22] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 20:58:51] MOTSPTrainer.py(155) : Epoch 105: Train (100%)  Obj1 Score: 14.2753, Obj2 Score: 14.3331,  Loss: -0.1577
+[2022-10-25 20:58:51] MOTSPTrainer.py(79) : Epoch 105/200: Time Est.: Elapsed[7.77h], Remain[7.03h]
+[2022-10-25 20:58:51] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 20:58:51] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 20:58:51] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:03:23] MOTSPTrainer.py(155) : Epoch 106: Train (100%)  Obj1 Score: 14.3360, Obj2 Score: 14.3092,  Loss: -0.1583
+[2022-10-25 21:03:23] MOTSPTrainer.py(79) : Epoch 106/200: Time Est.: Elapsed[7.85h], Remain[6.96h]
+[2022-10-25 21:03:23] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:03:23] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:07:51] MOTSPTrainer.py(155) : Epoch 107: Train (100%)  Obj1 Score: 14.2585, Obj2 Score: 14.1903,  Loss: -0.1562
+[2022-10-25 21:07:51] MOTSPTrainer.py(79) : Epoch 107/200: Time Est.: Elapsed[7.92h], Remain[6.89h]
+[2022-10-25 21:07:51] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:07:51] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:12:19] MOTSPTrainer.py(155) : Epoch 108: Train (100%)  Obj1 Score: 14.1608, Obj2 Score: 14.2623,  Loss: -0.1557
+[2022-10-25 21:12:19] MOTSPTrainer.py(79) : Epoch 108/200: Time Est.: Elapsed[8.00h], Remain[6.81h]
+[2022-10-25 21:12:19] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:12:20] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:16:42] MOTSPTrainer.py(155) : Epoch 109: Train (100%)  Obj1 Score: 14.1492, Obj2 Score: 14.0709,  Loss: -0.1535
+[2022-10-25 21:16:42] MOTSPTrainer.py(79) : Epoch 109/200: Time Est.: Elapsed[8.07h], Remain[6.74h]
+[2022-10-25 21:16:42] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:16:43] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:21:16] MOTSPTrainer.py(155) : Epoch 110: Train (100%)  Obj1 Score: 14.3509, Obj2 Score: 14.4140,  Loss: -0.1576
+[2022-10-25 21:21:16] MOTSPTrainer.py(79) : Epoch 110/200: Time Est.: Elapsed[8.15h], Remain[6.67h]
+[2022-10-25 21:21:16] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:21:16] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 21:21:16] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:25:41] MOTSPTrainer.py(155) : Epoch 111: Train (100%)  Obj1 Score: 14.3341, Obj2 Score: 14.2813,  Loss: -0.1566
+[2022-10-25 21:25:41] MOTSPTrainer.py(79) : Epoch 111/200: Time Est.: Elapsed[8.22h], Remain[6.59h]
+[2022-10-25 21:25:41] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:25:41] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:30:12] MOTSPTrainer.py(155) : Epoch 112: Train (100%)  Obj1 Score: 14.4469, Obj2 Score: 14.5053,  Loss: -0.1582
+[2022-10-25 21:30:12] MOTSPTrainer.py(79) : Epoch 112/200: Time Est.: Elapsed[8.30h], Remain[6.52h]
+[2022-10-25 21:30:12] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:30:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:34:40] MOTSPTrainer.py(155) : Epoch 113: Train (100%)  Obj1 Score: 14.3591, Obj2 Score: 14.3078,  Loss: -0.1560
+[2022-10-25 21:34:40] MOTSPTrainer.py(79) : Epoch 113/200: Time Est.: Elapsed[8.37h], Remain[6.44h]
+[2022-10-25 21:34:40] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:34:40] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:39:02] MOTSPTrainer.py(155) : Epoch 114: Train (100%)  Obj1 Score: 14.2606, Obj2 Score: 14.3475,  Loss: -0.1544
+[2022-10-25 21:39:02] MOTSPTrainer.py(79) : Epoch 114/200: Time Est.: Elapsed[8.44h], Remain[6.37h]
+[2022-10-25 21:39:02] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:39:02] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:43:29] MOTSPTrainer.py(155) : Epoch 115: Train (100%)  Obj1 Score: 14.3000, Obj2 Score: 14.3031,  Loss: -0.1560
+[2022-10-25 21:43:29] MOTSPTrainer.py(79) : Epoch 115/200: Time Est.: Elapsed[8.52h], Remain[6.30h]
+[2022-10-25 21:43:29] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:43:29] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 21:43:29] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:47:49] MOTSPTrainer.py(155) : Epoch 116: Train (100%)  Obj1 Score: 14.1943, Obj2 Score: 14.1684,  Loss: -0.1510
+[2022-10-25 21:47:49] MOTSPTrainer.py(79) : Epoch 116/200: Time Est.: Elapsed[8.59h], Remain[6.22h]
+[2022-10-25 21:47:49] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:47:50] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:52:12] MOTSPTrainer.py(155) : Epoch 117: Train (100%)  Obj1 Score: 14.2522, Obj2 Score: 14.2490,  Loss: -0.1527
+[2022-10-25 21:52:12] MOTSPTrainer.py(79) : Epoch 117/200: Time Est.: Elapsed[8.66h], Remain[6.15h]
+[2022-10-25 21:52:12] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:52:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 21:56:48] MOTSPTrainer.py(155) : Epoch 118: Train (100%)  Obj1 Score: 14.4709, Obj2 Score: 14.4625,  Loss: -0.1575
+[2022-10-25 21:56:48] MOTSPTrainer.py(79) : Epoch 118/200: Time Est.: Elapsed[8.74h], Remain[6.07h]
+[2022-10-25 21:56:48] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 21:56:48] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:01:15] MOTSPTrainer.py(155) : Epoch 119: Train (100%)  Obj1 Score: 14.3632, Obj2 Score: 14.3836,  Loss: -0.1544
+[2022-10-25 22:01:15] MOTSPTrainer.py(79) : Epoch 119/200: Time Est.: Elapsed[8.81h], Remain[6.00h]
+[2022-10-25 22:01:15] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:01:15] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:05:44] MOTSPTrainer.py(155) : Epoch 120: Train (100%)  Obj1 Score: 14.2694, Obj2 Score: 14.3654,  Loss: -0.1532
+[2022-10-25 22:05:44] MOTSPTrainer.py(79) : Epoch 120/200: Time Est.: Elapsed[8.89h], Remain[5.93h]
+[2022-10-25 22:05:44] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:05:44] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 22:05:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:10:16] MOTSPTrainer.py(155) : Epoch 121: Train (100%)  Obj1 Score: 14.6444, Obj2 Score: 14.5736,  Loss: -0.1563
+[2022-10-25 22:10:16] MOTSPTrainer.py(79) : Epoch 121/200: Time Est.: Elapsed[8.96h], Remain[5.85h]
+[2022-10-25 22:10:16] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:10:17] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:14:45] MOTSPTrainer.py(155) : Epoch 122: Train (100%)  Obj1 Score: 14.4662, Obj2 Score: 14.4091,  Loss: -0.1546
+[2022-10-25 22:14:45] MOTSPTrainer.py(79) : Epoch 122/200: Time Est.: Elapsed[9.04h], Remain[5.78h]
+[2022-10-25 22:14:45] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:14:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:19:06] MOTSPTrainer.py(155) : Epoch 123: Train (100%)  Obj1 Score: 14.2369, Obj2 Score: 14.2881,  Loss: -0.1496
+[2022-10-25 22:19:06] MOTSPTrainer.py(79) : Epoch 123/200: Time Est.: Elapsed[9.11h], Remain[5.70h]
+[2022-10-25 22:19:06] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:19:06] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:23:31] MOTSPTrainer.py(155) : Epoch 124: Train (100%)  Obj1 Score: 14.3768, Obj2 Score: 14.4079,  Loss: -0.1520
+[2022-10-25 22:23:31] MOTSPTrainer.py(79) : Epoch 124/200: Time Est.: Elapsed[9.19h], Remain[5.63h]
+[2022-10-25 22:23:31] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:23:32] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:27:59] MOTSPTrainer.py(155) : Epoch 125: Train (100%)  Obj1 Score: 14.3513, Obj2 Score: 14.3178,  Loss: -0.1525
+[2022-10-25 22:27:59] MOTSPTrainer.py(79) : Epoch 125/200: Time Est.: Elapsed[9.26h], Remain[5.56h]
+[2022-10-25 22:27:59] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:27:59] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 22:27:59] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:32:16] MOTSPTrainer.py(155) : Epoch 126: Train (100%)  Obj1 Score: 14.1261, Obj2 Score: 14.0643,  Loss: -0.1473
+[2022-10-25 22:32:16] MOTSPTrainer.py(79) : Epoch 126/200: Time Est.: Elapsed[9.33h], Remain[5.48h]
+[2022-10-25 22:32:16] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:32:17] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:36:37] MOTSPTrainer.py(155) : Epoch 127: Train (100%)  Obj1 Score: 14.2540, Obj2 Score: 14.2247,  Loss: -0.1492
+[2022-10-25 22:36:37] MOTSPTrainer.py(79) : Epoch 127/200: Time Est.: Elapsed[9.40h], Remain[5.41h]
+[2022-10-25 22:36:37] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:36:37] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:41:03] MOTSPTrainer.py(155) : Epoch 128: Train (100%)  Obj1 Score: 14.4738, Obj2 Score: 14.4468,  Loss: -0.1517
+[2022-10-25 22:41:03] MOTSPTrainer.py(79) : Epoch 128/200: Time Est.: Elapsed[9.48h], Remain[5.33h]
+[2022-10-25 22:41:03] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:41:03] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:45:33] MOTSPTrainer.py(155) : Epoch 129: Train (100%)  Obj1 Score: 14.4346, Obj2 Score: 14.5220,  Loss: -0.1525
+[2022-10-25 22:45:33] MOTSPTrainer.py(79) : Epoch 129/200: Time Est.: Elapsed[9.55h], Remain[5.26h]
+[2022-10-25 22:45:33] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:45:33] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:49:55] MOTSPTrainer.py(155) : Epoch 130: Train (100%)  Obj1 Score: 14.2116, Obj2 Score: 14.2049,  Loss: -0.1492
+[2022-10-25 22:49:55] MOTSPTrainer.py(79) : Epoch 130/200: Time Est.: Elapsed[9.63h], Remain[5.18h]
+[2022-10-25 22:49:55] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:49:56] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 22:49:56] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:54:22] MOTSPTrainer.py(155) : Epoch 131: Train (100%)  Obj1 Score: 14.3878, Obj2 Score: 14.4012,  Loss: -0.1514
+[2022-10-25 22:54:22] MOTSPTrainer.py(79) : Epoch 131/200: Time Est.: Elapsed[9.70h], Remain[5.11h]
+[2022-10-25 22:54:22] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:54:22] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 22:58:44] MOTSPTrainer.py(155) : Epoch 132: Train (100%)  Obj1 Score: 14.3066, Obj2 Score: 14.3764,  Loss: -0.1494
+[2022-10-25 22:58:44] MOTSPTrainer.py(79) : Epoch 132/200: Time Est.: Elapsed[9.77h], Remain[5.03h]
+[2022-10-25 22:58:44] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 22:58:44] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:03:01] MOTSPTrainer.py(155) : Epoch 133: Train (100%)  Obj1 Score: 14.0638, Obj2 Score: 14.0230,  Loss: -0.1461
+[2022-10-25 23:03:01] MOTSPTrainer.py(79) : Epoch 133/200: Time Est.: Elapsed[9.84h], Remain[4.96h]
+[2022-10-25 23:03:01] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:03:01] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:07:31] MOTSPTrainer.py(155) : Epoch 134: Train (100%)  Obj1 Score: 14.4742, Obj2 Score: 14.4090,  Loss: -0.1523
+[2022-10-25 23:07:31] MOTSPTrainer.py(79) : Epoch 134/200: Time Est.: Elapsed[9.92h], Remain[4.89h]
+[2022-10-25 23:07:31] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:07:31] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:11:54] MOTSPTrainer.py(155) : Epoch 135: Train (100%)  Obj1 Score: 14.2271, Obj2 Score: 14.2520,  Loss: -0.1486
+[2022-10-25 23:11:54] MOTSPTrainer.py(79) : Epoch 135/200: Time Est.: Elapsed[9.99h], Remain[4.81h]
+[2022-10-25 23:11:54] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:11:54] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 23:11:54] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:16:21] MOTSPTrainer.py(155) : Epoch 136: Train (100%)  Obj1 Score: 14.3628, Obj2 Score: 14.4130,  Loss: -0.1502
+[2022-10-25 23:16:21] MOTSPTrainer.py(79) : Epoch 136/200: Time Est.: Elapsed[10.07h], Remain[4.74h]
+[2022-10-25 23:16:21] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:16:22] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:20:43] MOTSPTrainer.py(155) : Epoch 137: Train (100%)  Obj1 Score: 14.2355, Obj2 Score: 14.2542,  Loss: -0.1473
+[2022-10-25 23:20:43] MOTSPTrainer.py(79) : Epoch 137/200: Time Est.: Elapsed[10.14h], Remain[4.66h]
+[2022-10-25 23:20:43] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:20:43] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:25:06] MOTSPTrainer.py(155) : Epoch 138: Train (100%)  Obj1 Score: 14.2919, Obj2 Score: 14.3024,  Loss: -0.1480
+[2022-10-25 23:25:06] MOTSPTrainer.py(79) : Epoch 138/200: Time Est.: Elapsed[10.21h], Remain[4.59h]
+[2022-10-25 23:25:06] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:25:06] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:29:25] MOTSPTrainer.py(155) : Epoch 139: Train (100%)  Obj1 Score: 14.1393, Obj2 Score: 14.1260,  Loss: -0.1460
+[2022-10-25 23:29:25] MOTSPTrainer.py(79) : Epoch 139/200: Time Est.: Elapsed[10.28h], Remain[4.51h]
+[2022-10-25 23:29:25] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:29:25] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:33:52] MOTSPTrainer.py(155) : Epoch 140: Train (100%)  Obj1 Score: 14.3557, Obj2 Score: 14.4143,  Loss: -0.1489
+[2022-10-25 23:33:52] MOTSPTrainer.py(79) : Epoch 140/200: Time Est.: Elapsed[10.36h], Remain[4.44h]
+[2022-10-25 23:33:52] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:33:53] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 23:33:53] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:38:15] MOTSPTrainer.py(155) : Epoch 141: Train (100%)  Obj1 Score: 14.2283, Obj2 Score: 14.2402,  Loss: -0.1465
+[2022-10-25 23:38:15] MOTSPTrainer.py(79) : Epoch 141/200: Time Est.: Elapsed[10.43h], Remain[4.36h]
+[2022-10-25 23:38:15] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:38:15] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:42:40] MOTSPTrainer.py(155) : Epoch 142: Train (100%)  Obj1 Score: 14.2698, Obj2 Score: 14.3069,  Loss: -0.1463
+[2022-10-25 23:42:40] MOTSPTrainer.py(79) : Epoch 142/200: Time Est.: Elapsed[10.50h], Remain[4.29h]
+[2022-10-25 23:42:40] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:42:40] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:47:12] MOTSPTrainer.py(155) : Epoch 143: Train (100%)  Obj1 Score: 14.4818, Obj2 Score: 14.4759,  Loss: -0.1504
+[2022-10-25 23:47:12] MOTSPTrainer.py(79) : Epoch 143/200: Time Est.: Elapsed[10.58h], Remain[4.22h]
+[2022-10-25 23:47:12] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:47:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:51:31] MOTSPTrainer.py(155) : Epoch 144: Train (100%)  Obj1 Score: 14.0363, Obj2 Score: 14.1599,  Loss: -0.1428
+[2022-10-25 23:51:31] MOTSPTrainer.py(79) : Epoch 144/200: Time Est.: Elapsed[10.65h], Remain[4.14h]
+[2022-10-25 23:51:31] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:51:31] MOTSPTrainer.py(67) : =================================================================
+[2022-10-25 23:55:55] MOTSPTrainer.py(155) : Epoch 145: Train (100%)  Obj1 Score: 14.2175, Obj2 Score: 14.2165,  Loss: -0.1449
+[2022-10-25 23:55:55] MOTSPTrainer.py(79) : Epoch 145/200: Time Est.: Elapsed[10.73h], Remain[4.07h]
+[2022-10-25 23:55:55] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-25 23:55:56] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-25 23:55:56] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:00:24] MOTSPTrainer.py(155) : Epoch 146: Train (100%)  Obj1 Score: 14.4015, Obj2 Score: 14.3711,  Loss: -0.1476
+[2022-10-26 00:00:24] MOTSPTrainer.py(79) : Epoch 146/200: Time Est.: Elapsed[10.80h], Remain[3.99h]
+[2022-10-26 00:00:24] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:00:24] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:05:01] MOTSPTrainer.py(155) : Epoch 147: Train (100%)  Obj1 Score: 14.6355, Obj2 Score: 14.6213,  Loss: -0.1502
+[2022-10-26 00:05:01] MOTSPTrainer.py(79) : Epoch 147/200: Time Est.: Elapsed[10.88h], Remain[3.92h]
+[2022-10-26 00:05:01] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:05:01] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:09:25] MOTSPTrainer.py(155) : Epoch 148: Train (100%)  Obj1 Score: 14.2488, Obj2 Score: 14.2657,  Loss: -0.1427
+[2022-10-26 00:09:25] MOTSPTrainer.py(79) : Epoch 148/200: Time Est.: Elapsed[10.95h], Remain[3.85h]
+[2022-10-26 00:09:25] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:09:25] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:13:52] MOTSPTrainer.py(155) : Epoch 149: Train (100%)  Obj1 Score: 14.3877, Obj2 Score: 14.4038,  Loss: -0.1455
+[2022-10-26 00:13:52] MOTSPTrainer.py(79) : Epoch 149/200: Time Est.: Elapsed[11.02h], Remain[3.77h]
+[2022-10-26 00:13:52] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:13:52] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:18:16] MOTSPTrainer.py(155) : Epoch 150: Train (100%)  Obj1 Score: 14.2196, Obj2 Score: 14.2253,  Loss: -0.1440
+[2022-10-26 00:18:16] MOTSPTrainer.py(79) : Epoch 150/200: Time Est.: Elapsed[11.10h], Remain[3.70h]
+[2022-10-26 00:18:16] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:18:16] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 00:18:16] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:22:36] MOTSPTrainer.py(155) : Epoch 151: Train (100%)  Obj1 Score: 14.1197, Obj2 Score: 14.1568,  Loss: -0.1425
+[2022-10-26 00:22:36] MOTSPTrainer.py(79) : Epoch 151/200: Time Est.: Elapsed[11.17h], Remain[3.62h]
+[2022-10-26 00:22:36] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:22:36] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:26:56] MOTSPTrainer.py(155) : Epoch 152: Train (100%)  Obj1 Score: 14.0789, Obj2 Score: 14.0879,  Loss: -0.1413
+[2022-10-26 00:26:56] MOTSPTrainer.py(79) : Epoch 152/200: Time Est.: Elapsed[11.24h], Remain[3.55h]
+[2022-10-26 00:26:56] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:26:57] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:31:23] MOTSPTrainer.py(155) : Epoch 153: Train (100%)  Obj1 Score: 14.3359, Obj2 Score: 14.3360,  Loss: -0.1458
+[2022-10-26 00:31:23] MOTSPTrainer.py(79) : Epoch 153/200: Time Est.: Elapsed[11.32h], Remain[3.48h]
+[2022-10-26 00:31:23] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:31:23] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:35:35] MOTSPTrainer.py(155) : Epoch 154: Train (100%)  Obj1 Score: 14.0701, Obj2 Score: 14.0112,  Loss: -0.1391
+[2022-10-26 00:35:35] MOTSPTrainer.py(79) : Epoch 154/200: Time Est.: Elapsed[11.39h], Remain[3.40h]
+[2022-10-26 00:35:35] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:35:36] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:40:02] MOTSPTrainer.py(155) : Epoch 155: Train (100%)  Obj1 Score: 14.3360, Obj2 Score: 14.4312,  Loss: -0.1458
+[2022-10-26 00:40:02] MOTSPTrainer.py(79) : Epoch 155/200: Time Est.: Elapsed[11.46h], Remain[3.33h]
+[2022-10-26 00:40:02] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:40:02] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 00:40:02] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:44:20] MOTSPTrainer.py(155) : Epoch 156: Train (100%)  Obj1 Score: 14.0705, Obj2 Score: 14.0892,  Loss: -0.1405
+[2022-10-26 00:44:20] MOTSPTrainer.py(79) : Epoch 156/200: Time Est.: Elapsed[11.53h], Remain[3.25h]
+[2022-10-26 00:44:20] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:44:20] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:48:41] MOTSPTrainer.py(155) : Epoch 157: Train (100%)  Obj1 Score: 14.2168, Obj2 Score: 14.2974,  Loss: -0.1427
+[2022-10-26 00:48:41] MOTSPTrainer.py(79) : Epoch 157/200: Time Est.: Elapsed[11.60h], Remain[3.18h]
+[2022-10-26 00:48:41] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:48:42] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:53:02] MOTSPTrainer.py(155) : Epoch 158: Train (100%)  Obj1 Score: 14.1942, Obj2 Score: 14.1731,  Loss: -0.1416
+[2022-10-26 00:53:02] MOTSPTrainer.py(79) : Epoch 158/200: Time Est.: Elapsed[11.68h], Remain[3.10h]
+[2022-10-26 00:53:02] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:53:02] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 00:57:37] MOTSPTrainer.py(155) : Epoch 159: Train (100%)  Obj1 Score: 14.5629, Obj2 Score: 14.5963,  Loss: -0.1479
+[2022-10-26 00:57:37] MOTSPTrainer.py(79) : Epoch 159/200: Time Est.: Elapsed[11.75h], Remain[3.03h]
+[2022-10-26 00:57:37] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 00:57:37] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:02:03] MOTSPTrainer.py(155) : Epoch 160: Train (100%)  Obj1 Score: 14.2820, Obj2 Score: 14.3159,  Loss: -0.1431
+[2022-10-26 01:02:03] MOTSPTrainer.py(79) : Epoch 160/200: Time Est.: Elapsed[11.83h], Remain[2.96h]
+[2022-10-26 01:02:03] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:02:04] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 01:02:04] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:06:25] MOTSPTrainer.py(155) : Epoch 161: Train (100%)  Obj1 Score: 14.1301, Obj2 Score: 14.1944,  Loss: -0.1415
+[2022-10-26 01:06:25] MOTSPTrainer.py(79) : Epoch 161/200: Time Est.: Elapsed[11.90h], Remain[2.88h]
+[2022-10-26 01:06:25] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:06:26] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:10:55] MOTSPTrainer.py(155) : Epoch 162: Train (100%)  Obj1 Score: 14.3916, Obj2 Score: 14.3767,  Loss: -0.1445
+[2022-10-26 01:10:55] MOTSPTrainer.py(79) : Epoch 162/200: Time Est.: Elapsed[11.98h], Remain[2.81h]
+[2022-10-26 01:10:55] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:10:56] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:15:12] MOTSPTrainer.py(155) : Epoch 163: Train (100%)  Obj1 Score: 13.9968, Obj2 Score: 13.9995,  Loss: -0.1373
+[2022-10-26 01:15:12] MOTSPTrainer.py(79) : Epoch 163/200: Time Est.: Elapsed[12.05h], Remain[2.73h]
+[2022-10-26 01:15:12] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:15:12] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:19:40] MOTSPTrainer.py(155) : Epoch 164: Train (100%)  Obj1 Score: 14.4545, Obj2 Score: 14.4601,  Loss: -0.1448
+[2022-10-26 01:19:40] MOTSPTrainer.py(79) : Epoch 164/200: Time Est.: Elapsed[12.12h], Remain[2.66h]
+[2022-10-26 01:19:40] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:19:41] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:24:04] MOTSPTrainer.py(155) : Epoch 165: Train (100%)  Obj1 Score: 14.2620, Obj2 Score: 14.2782,  Loss: -0.1425
+[2022-10-26 01:24:04] MOTSPTrainer.py(79) : Epoch 165/200: Time Est.: Elapsed[12.19h], Remain[2.59h]
+[2022-10-26 01:24:04] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:24:04] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 01:24:04] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:28:31] MOTSPTrainer.py(155) : Epoch 166: Train (100%)  Obj1 Score: 14.3468, Obj2 Score: 14.3673,  Loss: -0.1438
+[2022-10-26 01:28:31] MOTSPTrainer.py(79) : Epoch 166/200: Time Est.: Elapsed[12.27h], Remain[2.51h]
+[2022-10-26 01:28:31] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:28:32] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:32:57] MOTSPTrainer.py(155) : Epoch 167: Train (100%)  Obj1 Score: 14.2502, Obj2 Score: 14.2598,  Loss: -0.1419
+[2022-10-26 01:32:57] MOTSPTrainer.py(79) : Epoch 167/200: Time Est.: Elapsed[12.34h], Remain[2.44h]
+[2022-10-26 01:32:57] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:32:57] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:37:22] MOTSPTrainer.py(155) : Epoch 168: Train (100%)  Obj1 Score: 14.3180, Obj2 Score: 14.2988,  Loss: -0.1424
+[2022-10-26 01:37:22] MOTSPTrainer.py(79) : Epoch 168/200: Time Est.: Elapsed[12.42h], Remain[2.36h]
+[2022-10-26 01:37:22] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:37:23] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:41:55] MOTSPTrainer.py(155) : Epoch 169: Train (100%)  Obj1 Score: 14.4607, Obj2 Score: 14.5294,  Loss: -0.1448
+[2022-10-26 01:41:55] MOTSPTrainer.py(79) : Epoch 169/200: Time Est.: Elapsed[12.49h], Remain[2.29h]
+[2022-10-26 01:41:55] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:41:55] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:46:13] MOTSPTrainer.py(155) : Epoch 170: Train (100%)  Obj1 Score: 14.0862, Obj2 Score: 14.0826,  Loss: -0.1371
+[2022-10-26 01:46:13] MOTSPTrainer.py(79) : Epoch 170/200: Time Est.: Elapsed[12.56h], Remain[2.22h]
+[2022-10-26 01:46:13] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:46:13] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 01:46:13] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:50:37] MOTSPTrainer.py(155) : Epoch 171: Train (100%)  Obj1 Score: 14.3281, Obj2 Score: 14.2873,  Loss: -0.1421
+[2022-10-26 01:50:37] MOTSPTrainer.py(79) : Epoch 171/200: Time Est.: Elapsed[12.64h], Remain[2.14h]
+[2022-10-26 01:50:37] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:50:37] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:54:58] MOTSPTrainer.py(155) : Epoch 172: Train (100%)  Obj1 Score: 14.1428, Obj2 Score: 14.1510,  Loss: -0.1387
+[2022-10-26 01:54:58] MOTSPTrainer.py(79) : Epoch 172/200: Time Est.: Elapsed[12.71h], Remain[2.07h]
+[2022-10-26 01:54:58] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:54:58] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 01:59:18] MOTSPTrainer.py(155) : Epoch 173: Train (100%)  Obj1 Score: 14.0727, Obj2 Score: 14.1594,  Loss: -0.1389
+[2022-10-26 01:59:18] MOTSPTrainer.py(79) : Epoch 173/200: Time Est.: Elapsed[12.78h], Remain[1.99h]
+[2022-10-26 01:59:18] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 01:59:18] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:03:45] MOTSPTrainer.py(155) : Epoch 174: Train (100%)  Obj1 Score: 14.3832, Obj2 Score: 14.3947,  Loss: -0.1429
+[2022-10-26 02:03:45] MOTSPTrainer.py(79) : Epoch 174/200: Time Est.: Elapsed[12.86h], Remain[1.92h]
+[2022-10-26 02:03:45] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:03:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:08:14] MOTSPTrainer.py(155) : Epoch 175: Train (100%)  Obj1 Score: 14.3550, Obj2 Score: 14.2945,  Loss: -0.1410
+[2022-10-26 02:08:14] MOTSPTrainer.py(79) : Epoch 175/200: Time Est.: Elapsed[12.93h], Remain[1.85h]
+[2022-10-26 02:08:14] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:08:14] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 02:08:14] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:12:44] MOTSPTrainer.py(155) : Epoch 176: Train (100%)  Obj1 Score: 14.4308, Obj2 Score: 14.4265,  Loss: -0.1425
+[2022-10-26 02:12:44] MOTSPTrainer.py(79) : Epoch 176/200: Time Est.: Elapsed[13.01h], Remain[1.77h]
+[2022-10-26 02:12:44] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:12:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:17:05] MOTSPTrainer.py(155) : Epoch 177: Train (100%)  Obj1 Score: 14.1306, Obj2 Score: 14.1091,  Loss: -0.1370
+[2022-10-26 02:17:05] MOTSPTrainer.py(79) : Epoch 177/200: Time Est.: Elapsed[13.08h], Remain[1.70h]
+[2022-10-26 02:17:05] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:17:05] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:21:30] MOTSPTrainer.py(155) : Epoch 178: Train (100%)  Obj1 Score: 14.2658, Obj2 Score: 14.2911,  Loss: -0.1395
+[2022-10-26 02:21:30] MOTSPTrainer.py(79) : Epoch 178/200: Time Est.: Elapsed[13.15h], Remain[1.63h]
+[2022-10-26 02:21:30] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:21:31] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:25:56] MOTSPTrainer.py(155) : Epoch 179: Train (100%)  Obj1 Score: 14.3277, Obj2 Score: 14.2848,  Loss: -0.1400
+[2022-10-26 02:25:56] MOTSPTrainer.py(79) : Epoch 179/200: Time Est.: Elapsed[13.23h], Remain[1.55h]
+[2022-10-26 02:25:56] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:25:57] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:30:15] MOTSPTrainer.py(155) : Epoch 180: Train (100%)  Obj1 Score: 14.1337, Obj2 Score: 14.1339,  Loss: -0.1360
+[2022-10-26 02:30:15] MOTSPTrainer.py(79) : Epoch 180/200: Time Est.: Elapsed[13.30h], Remain[1.48h]
+[2022-10-26 02:30:15] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:30:15] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 02:30:16] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:34:40] MOTSPTrainer.py(155) : Epoch 181: Train (100%)  Obj1 Score: 14.2622, Obj2 Score: 14.2181,  Loss: -0.1294
+[2022-10-26 02:34:40] MOTSPTrainer.py(79) : Epoch 181/200: Time Est.: Elapsed[13.37h], Remain[1.40h]
+[2022-10-26 02:34:40] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:34:40] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:39:06] MOTSPTrainer.py(155) : Epoch 182: Train (100%)  Obj1 Score: 14.2916, Obj2 Score: 14.2312,  Loss: -0.1288
+[2022-10-26 02:39:06] MOTSPTrainer.py(79) : Epoch 182/200: Time Est.: Elapsed[13.44h], Remain[1.33h]
+[2022-10-26 02:39:06] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:39:06] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:43:28] MOTSPTrainer.py(155) : Epoch 183: Train (100%)  Obj1 Score: 14.1793, Obj2 Score: 14.2528,  Loss: -0.1277
+[2022-10-26 02:43:28] MOTSPTrainer.py(79) : Epoch 183/200: Time Est.: Elapsed[13.52h], Remain[1.26h]
+[2022-10-26 02:43:28] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:43:28] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:47:57] MOTSPTrainer.py(155) : Epoch 184: Train (100%)  Obj1 Score: 14.4425, Obj2 Score: 14.5081,  Loss: -0.1320
+[2022-10-26 02:47:57] MOTSPTrainer.py(79) : Epoch 184/200: Time Est.: Elapsed[13.59h], Remain[1.18h]
+[2022-10-26 02:47:57] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:47:58] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:52:19] MOTSPTrainer.py(155) : Epoch 185: Train (100%)  Obj1 Score: 14.1388, Obj2 Score: 14.2011,  Loss: -0.1279
+[2022-10-26 02:52:19] MOTSPTrainer.py(79) : Epoch 185/200: Time Est.: Elapsed[13.67h], Remain[1.11h]
+[2022-10-26 02:52:19] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:52:20] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 02:52:20] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 02:56:41] MOTSPTrainer.py(155) : Epoch 186: Train (100%)  Obj1 Score: 14.1498, Obj2 Score: 14.1773,  Loss: -0.1272
+[2022-10-26 02:56:41] MOTSPTrainer.py(79) : Epoch 186/200: Time Est.: Elapsed[13.74h], Remain[1.03h]
+[2022-10-26 02:56:41] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 02:56:41] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:00:56] MOTSPTrainer.py(155) : Epoch 187: Train (100%)  Obj1 Score: 13.9375, Obj2 Score: 13.9483,  Loss: -0.1239
+[2022-10-26 03:00:56] MOTSPTrainer.py(79) : Epoch 187/200: Time Est.: Elapsed[13.81h], Remain[57.60m]
+[2022-10-26 03:00:56] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:00:57] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:05:25] MOTSPTrainer.py(155) : Epoch 188: Train (100%)  Obj1 Score: 14.3997, Obj2 Score: 14.4011,  Loss: -0.1319
+[2022-10-26 03:05:25] MOTSPTrainer.py(79) : Epoch 188/200: Time Est.: Elapsed[13.88h], Remain[53.17m]
+[2022-10-26 03:05:25] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:05:26] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:09:48] MOTSPTrainer.py(155) : Epoch 189: Train (100%)  Obj1 Score: 14.1614, Obj2 Score: 14.1477,  Loss: -0.1281
+[2022-10-26 03:09:48] MOTSPTrainer.py(79) : Epoch 189/200: Time Est.: Elapsed[13.96h], Remain[48.74m]
+[2022-10-26 03:09:48] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:09:49] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:14:22] MOTSPTrainer.py(155) : Epoch 190: Train (100%)  Obj1 Score: 14.4576, Obj2 Score: 14.5253,  Loss: -0.1326
+[2022-10-26 03:14:22] MOTSPTrainer.py(79) : Epoch 190/200: Time Est.: Elapsed[14.03h], Remain[44.31m]
+[2022-10-26 03:14:22] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:14:22] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 03:14:22] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:18:44] MOTSPTrainer.py(155) : Epoch 191: Train (100%)  Obj1 Score: 14.0711, Obj2 Score: 14.1112,  Loss: -0.1273
+[2022-10-26 03:18:44] MOTSPTrainer.py(79) : Epoch 191/200: Time Est.: Elapsed[14.11h], Remain[39.88m]
+[2022-10-26 03:18:44] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:18:44] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:23:19] MOTSPTrainer.py(155) : Epoch 192: Train (100%)  Obj1 Score: 14.5052, Obj2 Score: 14.5032,  Loss: -0.1329
+[2022-10-26 03:23:19] MOTSPTrainer.py(79) : Epoch 192/200: Time Est.: Elapsed[14.18h], Remain[35.45m]
+[2022-10-26 03:23:19] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:23:20] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:27:45] MOTSPTrainer.py(155) : Epoch 193: Train (100%)  Obj1 Score: 14.1966, Obj2 Score: 14.2191,  Loss: -0.1289
+[2022-10-26 03:27:45] MOTSPTrainer.py(79) : Epoch 193/200: Time Est.: Elapsed[14.26h], Remain[31.02m]
+[2022-10-26 03:27:45] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:27:45] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:32:03] MOTSPTrainer.py(155) : Epoch 194: Train (100%)  Obj1 Score: 14.0889, Obj2 Score: 14.0664,  Loss: -0.1268
+[2022-10-26 03:32:03] MOTSPTrainer.py(79) : Epoch 194/200: Time Est.: Elapsed[14.33h], Remain[26.59m]
+[2022-10-26 03:32:03] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:32:04] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:36:29] MOTSPTrainer.py(155) : Epoch 195: Train (100%)  Obj1 Score: 14.2562, Obj2 Score: 14.2776,  Loss: -0.1295
+[2022-10-26 03:36:29] MOTSPTrainer.py(79) : Epoch 195/200: Time Est.: Elapsed[14.40h], Remain[22.16m]
+[2022-10-26 03:36:29] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:36:29] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 03:36:29] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:40:57] MOTSPTrainer.py(155) : Epoch 196: Train (100%)  Obj1 Score: 14.2578, Obj2 Score: 14.2673,  Loss: -0.1296
+[2022-10-26 03:40:57] MOTSPTrainer.py(79) : Epoch 196/200: Time Est.: Elapsed[14.48h], Remain[17.73m]
+[2022-10-26 03:40:57] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:40:57] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:45:18] MOTSPTrainer.py(155) : Epoch 197: Train (100%)  Obj1 Score: 14.1290, Obj2 Score: 14.1751,  Loss: -0.1277
+[2022-10-26 03:45:18] MOTSPTrainer.py(79) : Epoch 197/200: Time Est.: Elapsed[14.55h], Remain[13.29m]
+[2022-10-26 03:45:18] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:45:18] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:49:42] MOTSPTrainer.py(155) : Epoch 198: Train (100%)  Obj1 Score: 14.2765, Obj2 Score: 14.2162,  Loss: -0.1292
+[2022-10-26 03:49:42] MOTSPTrainer.py(79) : Epoch 198/200: Time Est.: Elapsed[14.62h], Remain[8.86m]
+[2022-10-26 03:49:42] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:49:42] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:54:11] MOTSPTrainer.py(155) : Epoch 199: Train (100%)  Obj1 Score: 14.3287, Obj2 Score: 14.3759,  Loss: -0.1317
+[2022-10-26 03:54:11] MOTSPTrainer.py(79) : Epoch 199/200: Time Est.: Elapsed[14.70h], Remain[4.43m]
+[2022-10-26 03:54:11] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:54:11] MOTSPTrainer.py(67) : =================================================================
+[2022-10-26 03:58:34] MOTSPTrainer.py(155) : Epoch 200: Train (100%)  Obj1 Score: 14.1819, Obj2 Score: 14.1945,  Loss: -0.1279
+[2022-10-26 03:58:34] MOTSPTrainer.py(79) : Epoch 200/200: Time Est.: Elapsed[14.77h], Remain[0.00m]
+[2022-10-26 03:58:34] MOTSPTrainer.py(87) : Saving log_image
+[2022-10-26 03:58:34] MOTSPTrainer.py(97) : Saving trained_model
+[2022-10-26 03:58:34] MOTSPTrainer.py(117) :  *** Training Done *** 
+[2022-10-26 03:58:34] MOTSPTrainer.py(118) : Now, printing log array...
+[2022-10-26 03:58:34] utils.py(236) : train_score_obj1_list = [15.244195173339843, 15.100414651794434, 14.961541850280762, 14.860519893798829, 14.92063322479248, 14.55364029663086, 14.819260675964355, 14.7247482321167, 14.697343542175293, 14.78840564025879, 14.919772358398438, 14.615480187225343, 14.719958056335448, 14.528009106445312, 14.573034544677734, 14.863812870025635, 14.715010845336915, 14.54403278793335, 14.675211981811524, 14.43049455444336, 14.304102329101562, 14.669184439697265, 14.446796187744141, 14.520185983581543, 14.544791393737793, 14.45312756729126, 14.771873984069824, 14.453212205657959, 14.55315040008545, 14.47857831604004, 14.439140297851562, 14.36406160522461, 14.617320818786622, 14.45802398651123, 14.319127259521485, 14.418025454101562, 14.693385365600586, 14.128103852844239, 14.52669335144043, 14.431760639648438, 14.633905895080566, 14.55107206817627, 14.149833199157715, 14.432217415161134, 14.392028507385254, 14.16069631072998, 14.52110910949707, 14.310158186340333, 14.516005436401366, 14.330230806274415, 14.362315919799805, 14.31864220855713, 14.733890211791993, 14.246670690002441, 14.366975856018067, 14.268222188415526, 14.435374943847656, 14.399511916809082, 14.357920038757324, 14.415104655151367, 14.472397592773438, 14.47283149017334, 14.259052229309082, 14.527368896484376, 14.590252778930664, 14.389651360168457, 14.30835810546875, 14.442966817321777, 14.202379974060058, 14.478135292358399, 14.292016268005371, 14.548932279663086, 14.491621928405761, 14.343202697143555, 14.353237175598144, 14.526514859313965, 14.240830809326171, 14.479893439331054, 14.326501263427735, 14.316667074279785, 14.184227084350585, 14.264396402282715, 14.44551913269043, 14.454827014465332, 14.37500255645752, 14.34027333557129, 14.55268398071289, 14.192478850402832, 14.322446485290527, 14.232740325012207, 14.34220549407959, 14.149348271484374, 14.172363617858887, 14.294912661132813, 14.212653511352539, 14.142054515686036, 14.40859012298584, 14.340085643005372, 14.413440819244384, 14.31132083618164, 14.08304486907959, 14.248891932678223, 14.306434057006836, 14.520157894439697, 14.275348780212402, 14.336009039916993, 14.258466041564942, 14.160813793945312, 14.149177044372559, 14.350870358581544, 14.33409613433838, 14.446894895324707, 14.35913310760498, 14.26056628112793, 14.300038220977783, 14.194347737731933, 14.252193205871581, 14.470881800537109, 14.363187020874024, 14.269352631530761, 14.644410247497559, 14.466168268737793, 14.236853224182129, 14.376779126586914, 14.351333241577148, 14.126102567443848, 14.253964403686524, 14.473840511169433, 14.43464153137207, 14.211598738098145, 14.387832570343017, 14.30664173248291, 14.06378045501709, 14.474164296264648, 14.22705581237793, 14.362837403259277, 14.235471277160645, 14.291929583435058, 14.139254194335937, 14.35570278930664, 14.228306084289551, 14.269802469787598, 14.481798715515136, 14.03628422027588, 14.217499139099122, 14.401469644165038, 14.63548559906006, 14.248831401977538, 14.387680149230958, 14.219639765014648, 14.119749077148438, 14.078879669799806, 14.335937896728515, 14.070138576965332, 14.336013594665527, 14.070503474121093, 14.216781384887696, 14.19422337310791, 14.56289256286621, 14.281973829650878, 14.130089137268067, 14.391615913391114, 13.996777945861817, 14.45446631011963, 14.261967130126953, 14.3467555758667, 14.250168576812744, 14.317982534790039, 14.460652415771484, 14.086219409179687, 14.328069325408936, 14.142755919189453, 14.07266504699707, 14.383184352111817, 14.354959830322265, 14.430762359619141, 14.130591331787109, 14.26579882019043, 14.32766885559082, 14.133717100982667, 14.262179331359864, 14.291593990478516, 14.179320942993163, 14.442514817504883, 14.13882010498047, 14.149775145874024, 13.937519928588868, 14.399660931396484, 14.161442976074218, 14.457569245300293, 14.071139694519044, 14.505217247314453, 14.196603039550782, 14.088892933349609, 14.256192500305175, 14.257820281982422, 14.128997722473144, 14.276512198486328, 14.328697416992188, 14.181907883911133]
+[2022-10-26 03:58:34] utils.py(236) : train_loss_list = [-1.192004370660782, -0.8717372068023682, -0.7412958297157287, -0.6705391488313674, -0.6748523806858062, -0.5699196516227722, -0.5521491121006012, -0.5378567578744888, -0.5103940645503998, -0.49478659791469576, -0.48770897587537765, -0.4539108825588226, -0.4439762160253525, -0.43236628002405164, -0.4277705220460892, -0.40945983058691027, -0.3940453793597221, -0.37807841475963594, -0.3645999574661255, -0.34572298785209654, -0.32392826008796693, -0.32487047216415404, -0.2999306183886528, -0.2984491885650158, -0.2806061588048935, -0.27214142087221144, -0.2722642512834072, -0.2619846306324005, -0.24946488480389117, -0.24299785497665405, -0.24116097869634628, -0.23012311597526072, -0.23438894579589367, -0.2250519057869911, -0.21788043759584427, -0.21764309446454047, -0.21901345878243447, -0.2049417377126217, -0.2103126438355446, -0.20561730365246533, -0.20743264982938767, -0.20314690412521363, -0.19142046912372113, -0.1961873812317848, -0.19591490245103835, -0.18806316622555255, -0.1954495845657587, -0.1882905911707878, -0.19120955042600632, -0.1869185300707817, -0.18588325335383415, -0.18554160588264465, -0.19174198025226594, -0.18099315024018287, -0.18423148597717284, -0.18242337624669075, -0.1836552094310522, -0.18277591015219688, -0.18182371457993984, -0.18012012821257115, -0.18008655680418015, -0.17957757735788824, -0.17496127881169318, -0.17959653193831443, -0.17995462592065334, -0.17617560575962066, -0.17436472869873046, -0.1759383263194561, -0.17079105941832065, -0.17500418289482594, -0.17062822049319745, -0.1757568431431055, -0.17481146566450595, -0.17148427165687083, -0.1705718175983429, -0.17218330250382424, -0.16592302640914916, -0.17152479730904102, -0.16774278982520102, -0.16802673542320729, -0.16479737602293493, -0.16580035176575184, -0.168789184166193, -0.16883028141200543, -0.16556227588057518, -0.16559181501746179, -0.16988050257861614, -0.16267290926098824, -0.1633000347083807, -0.16163369794249535, -0.16325482985913753, -0.1600477142238617, -0.1584813734704256, -0.161009556863904, -0.15916147951960563, -0.15630571500003337, -0.1630261232060194, -0.16061030429840087, -0.16008543157696725, -0.15966596055984497, -0.1557236482656002, -0.1576108150959015, -0.15935389693558216, -0.16105461726367473, -0.15766290504693986, -0.15825585365235806, -0.15615790410876274, -0.1557136675083637, -0.1534685544615984, -0.15758564164459704, -0.15662696462273598, -0.1582106034386158, -0.15601617255032063, -0.15439836203843355, -0.1560398239392042, -0.150993461612463, -0.15274234634041786, -0.15746147627592086, -0.1544107248353958, -0.1531910552573204, -0.15634641043305397, -0.1545867942047119, -0.1496361187106371, -0.15204915328919888, -0.15254849878311158, -0.14730329864025116, -0.1492191157734394, -0.15170334407985211, -0.15253583320438863, -0.1492168118327856, -0.15139843685477972, -0.14943410042762756, -0.14605319238185882, -0.15227254744172097, -0.14863120718240738, -0.1502133290117979, -0.1473239382535219, -0.1479741897779703, -0.14601495180428029, -0.14893452904343604, -0.14648005026698113, -0.1462836989080906, -0.15036788206398488, -0.14275167065024377, -0.1449010902673006, -0.14761530050516128, -0.15017670391142368, -0.14268618430048227, -0.14545170087635517, -0.1439756098282337, -0.14245436945796014, -0.1412541242736578, -0.14582737978279592, -0.1391437607729435, -0.145787062215209, -0.14048136337339878, -0.1426543651640415, -0.14162424202919005, -0.1478604340237379, -0.14305245196700095, -0.1414683562451601, -0.14453932802796363, -0.1373153248745203, -0.14483796357750892, -0.1425452558720112, -0.14383051895081997, -0.1419027901008725, -0.14241330592036247, -0.1448317701858282, -0.13708703244626522, -0.14210659281909466, -0.13873989456772803, -0.13887163850486278, -0.14294375682651997, -0.14098543067216873, -0.14254170033186675, -0.1369654761981964, -0.1395012932395935, -0.14003476597428322, -0.1360110192447901, -0.12938953750491142, -0.12878155457258225, -0.12766607150375844, -0.13195884211063386, -0.1279454034820199, -0.1272494166111946, -0.12391558581590653, -0.1318615268099308, -0.12805960667431354, -0.13263629051029682, -0.12730568387150765, -0.1329396476328373, -0.12891588641405105, -0.12684255811959505, -0.12945213669896125, -0.12959552364379168, -0.12772327778220177, -0.12917596826136113, -0.13173425556451082, -0.12794630249738692]
+[2022-10-26 03:58:34] utils.py(236) : train_score_obj2_list = [15.220850182189942, 15.036179950561523, 15.030885250244141, 14.731858552246093, 14.904302276611329, 14.603044705810547, 14.823667171020508, 14.66417311279297, 14.774836086730957, 14.795184190979004, 14.856462856445312, 14.587193448638915, 14.679489973449707, 14.484320456542969, 14.649438533935546, 14.872152358703612, 14.729285211486816, 14.564255444030762, 14.624609322509766, 14.487574261169433, 14.283476865844726, 14.62262326751709, 14.383532045898438, 14.591553894348145, 14.532308197631837, 14.365756584472656, 14.735998202209473, 14.363222976989746, 14.510893594970703, 14.438436105957031, 14.428350748901368, 14.34647003540039, 14.61761611694336, 14.45836196685791, 14.330755725402833, 14.455497854919434, 14.634419714660645, 14.17501707824707, 14.510440951843261, 14.374803998718262, 14.61626689300537, 14.465817518615722, 14.182698645935059, 14.455097301940919, 14.434891637268066, 14.18522663330078, 14.522314795532226, 14.280053080444336, 14.486772609863282, 14.38497717010498, 14.415573002624512, 14.392307006835937, 14.581413225402832, 14.227539726257325, 14.27841463256836, 14.251053319091797, 14.33379970336914, 14.448894103393554, 14.338356066589355, 14.401099263916016, 14.397786081848144, 14.51636785308838, 14.303089400634766, 14.478409828186035, 14.558885341186523, 14.422125602722168, 14.357604816894531, 14.427116057739259, 14.186165510559082, 14.480947093811036, 14.231087709655762, 14.607500643310546, 14.523545640411378, 14.383231768341064, 14.396711706848144, 14.51843061706543, 14.227449779968262, 14.49697959564209, 14.322613974914551, 14.324617701416015, 14.150821016845702, 14.221535367736816, 14.43993783996582, 14.442141998901366, 14.347166367492676, 14.319703435058594, 14.667128473510742, 14.25420760925293, 14.34553757598877, 14.24927363861084, 14.37079871246338, 14.126407348327637, 14.184359654846192, 14.284178897094726, 14.198469051818847, 14.097258889770508, 14.35318793334961, 14.33785676940918, 14.379578616943359, 14.305044958496094, 14.121899994506835, 14.275373801574707, 14.348415967407227, 14.407049501953125, 14.333146320495606, 14.30915851989746, 14.190267412719727, 14.262334247741698, 14.070871045532227, 14.41398724456787, 14.281266690368652, 14.505301106872558, 14.307797419433594, 14.347465975036622, 14.30312680206299, 14.168381538085937, 14.24903486541748, 14.46249168395996, 14.383626902770995, 14.36537996673584, 14.573606096496581, 14.409125083312988, 14.288149864196777, 14.407855425109863, 14.317751399841308, 14.064252603149415, 14.224685706481933, 14.44679003540039, 14.52203510559082, 14.20493247253418, 14.40118526550293, 14.376362780761719, 14.023048468933105, 14.409004902038575, 14.252027647094726, 14.413011259155274, 14.254171372985839, 14.30244380859375, 14.125984738769532, 14.414303649291993, 14.24022364654541, 14.306903691711426, 14.475920701904297, 14.1599031048584, 14.216500854492187, 14.371088334350587, 14.62126465637207, 14.265650823516845, 14.4037605960083, 14.225285667114258, 14.156766554870606, 14.08786126739502, 14.3359644342041, 14.011222095031739, 14.431153638000488, 14.08921591796875, 14.29744267730713, 14.173052467956543, 14.596344898681641, 14.315876996459961, 14.194350459899903, 14.376717233886719, 13.999498304443359, 14.460110371398926, 14.278223644104004, 14.367300014648437, 14.25981927001953, 14.298794062194824, 14.529426117553712, 14.082598395080566, 14.287297102966308, 14.151027299499512, 14.159353772888183, 14.394706362609863, 14.294474599914551, 14.42650488494873, 14.109104016723633, 14.291092322387696, 14.284755475158692, 14.133899263153076, 14.218115301208496, 14.231191806030273, 14.252782286376954, 14.508136472167969, 14.201060159301758, 14.177288557739258, 13.948261046752929, 14.401093112487793, 14.147713257751464, 14.525255158996583, 14.111229878234862, 14.503226495361329, 14.219060690917969, 14.066377313232422, 14.27762992034912, 14.26734686126709, 14.175065239868164, 14.216211339111329, 14.3758928515625, 14.194481593933105]
