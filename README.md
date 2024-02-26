@@ -9,7 +9,7 @@ It contains the implementation codes for three multi-objective vehicle routing p
 
 - Tri-objective traveling salesman problem(TriTSP).
 
-This code is heavily based on the [POMO repository](https://github.com/yd-kwon/POMO) and [PMOCO repository](https://github.com/Xi-L/PMOCO).
+This code is adapted from the POMO repository (https://github.com/yd-kwon/POMO) and the PMOCO repository (https://github.com/Xi-L/PMOCO).
 
 #### Quick Start
 
