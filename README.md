@@ -1,7 +1,7 @@
 # CNH
 
 Code for TNNLS Paper: Conditional Neural Heuristic for Multi-objective Vehicle Routing Problems
-It contains the implementation codes and testing dataset for three multi-objective vehicle routing problems:
+It contains the implementation codes for three multi-objective vehicle routing problems:
 
 - Bi-objective traveling salesman problem(BiTSP).
 
@@ -13,20 +13,8 @@ This code is heavily based on the [POMO repository](https://github.com/yd-kwon/P
 
 #### Quick Start
 
-- To train a model, such as BiTSP with 20 nodes, run train_motsp_n20.py in the corresponding folder.
+- To train a model, such as BiTSP, run train_motsp.py in the corresponding folder.
 
-- To test a model, such as BiTSP with 20 nodes, run test_motsp_n20.py in the corresponding folder.
-
-- To test a model using CAS, such as BiTSP with 20 nodes, run test_active_search_CAS.py in the corresponding folder.
+- To test a model, such as BiTSP, run test_motsp.py in the corresponding folder.
 
 - Pretrained models for each problem can be found in the result folder.
-
-- The testing dataset used in our paper can be found in the test_data folder.
-
-#### Reference
-
-If our work is helpful for your research, please cite our paper:
-
-```
-
-```
